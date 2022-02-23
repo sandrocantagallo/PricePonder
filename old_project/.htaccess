@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /priceponder
+RewriteRule ^card/([^/]+)\.html$ card_info.php?multiverseid=$1 [L]
+RewriteRule ^set/([^/]+)\.html$ set_info.php?id=$1 [L]

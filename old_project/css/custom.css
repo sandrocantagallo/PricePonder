@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+.social {  
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.tag, .eye {
+	margin-left:5px;
+}
